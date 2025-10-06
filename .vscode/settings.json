@@ -2,7 +2,8 @@
     "files.associations": {
         "iostream": "cpp",
         "iomanip": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "cmath": "cpp"
     },
     "C_Cpp.default.compilerPath": "/usr/bin/g++"
 }

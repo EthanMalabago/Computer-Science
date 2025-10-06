@@ -1,16 +1,42 @@
 hw5 - Due Date - 10/13
 
-Write a program that uses function random introduced in the class to compute the value of pi.
+Our goal is to write a C++ program that uses a function random(seed) introduced in the lecture on October 6, 2025 to compute the value of π.
 
-Use unit circle, which is a quarter of a circle in quadrant I. 
+Let's break this down step by step so we know what our program should do.
 
-To check if a point is in the unit circle, check hypotenuse < 1. sqrt(x * x + y * y)
+The method that Professor Strzemecki suggested in the lab on October 6, 2025, was to utilize a unit circle. His proposed strategy is this:
 
+Generate random points from x = [0, 1] to y = [0, 1] using the random(seed) function.
+This area makes a square, which you can imagine is in Quadrant I of a coordinate plane.
 
+How do we get π from this? That's where the unit circle comes in.
 
-A_s = 1
-A_c = pi/4
+Imagine a circle with a radius of 1 in the center of that coordinate plane.
+Let's cut it so that way we only are paying attention to Quadrant I, the part within the square we imagined earlier.
 
-A_s - total
-A_c - counter
+π can come from the area of a circle, which is πr^2.
+Since we are only looking at a quarter of a circle and the radius is 1, our formula is π/4.
 
+What do we do with this? We can check the ratio of how many points are inside and outside our quarter circle to get close to π.
+
+This simplifies down to this equation:
+Area of quarter circle / Area of square
+
+Or,
+π / 4
+
+That means, if we generate N amount of points, and M of them fall in the circle, then here's our ratio:
+
+M / N = π / 4
+
+Leaving us with π = 4 * M / N.
+
+So how do we check to see if our points are inside the quarter circle? Well, we can imagine that the points create a right triangle. If the hypotenuse is greater than 1, then it's outside of our circle.
+
+To check if a point is in the unit circle, we modify the Pythagorean Theorem (a^2 + b^2 = c^2):
+
+sqrt(x^2 + y^2) = c
+
+And because we want c, the hypotenuse, to be less than 1, the equation in code terms would look like:
+
+sqrt(x * x + y * y) < 1
