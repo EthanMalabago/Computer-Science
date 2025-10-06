@@ -1,0 +1,22 @@
+LAB EMAIL TEMPLATE
+
+To: ts@dsm.fordham.edu
+AND
+To: Tianyi Yang ty10@fordham.edu
+
+Subject: CISC 1610 - Ethan Malabago - lab1 (insert date of assignment)
+
+*insert file*
+
+------------------------------------------------------------------------------------------------
+
+HOMEWORK EMAIL TEMPLATE
+
+To: ts@dsm.fordham.edu
+AND
+To: Tianyi Yang ty10@fordham.edu
+
+Subject: CISC 1600 - Ethan Malabago - hw1 (insert due date)
+
+*insert file*
+

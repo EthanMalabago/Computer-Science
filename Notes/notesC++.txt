@@ -1,0 +1,21 @@
+3 types of Identifiers
+
+1. Reserved Words
+
+   - Words that have a predefined meaning that CANNOT be changed
+   - Example: int
+
+2. Library Identifers
+
+   - Words that have a predefined meaning that CAN be changed
+   - Example: sin, cos
+
+3. User-defined Identifiers
+
+   - Words that are created by the user
+   - Only letters, digits, and underscore
+
+Self-documenting code
+
+- All user-defined identifiers have a meaning associated in the purpose of that identifer
+- Example: largest_sum

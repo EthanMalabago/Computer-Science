@@ -1,0 +1,4 @@
+lab 3 - Due Date - 10/06   
+
+Write a program that uses function random(seed) introduced in the class to generate 10,000 random numbers in range [0, 5) and outputs the average of all generated numbers.
+

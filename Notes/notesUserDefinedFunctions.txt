@@ -1,0 +1,29 @@
+// Created 29 Sep 2025
+
+User-defined functions
+
+            #include <iostream>
+            #include <iomanip>
+
+            int cube(int x);
+
+            int main()
+            {
+                int number;
+
+                std::cout << "Enter an integer: ";
+                std::cin >> number;
+
+                std::cout << "The cube of " << number;
+                std::cout << " is " << cube(number) << std::endl;
+
+                return 0;
+            }
+
+            int cube(int x)
+            {
+                return x * x * x;
+            }
+
+
+The user-defined function is called cube(), which takes in an integer, x, and returns an integer (x^3). 

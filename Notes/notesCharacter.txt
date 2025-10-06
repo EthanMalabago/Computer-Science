@@ -1,0 +1,4 @@
+Character type
+    * char c;
+    * char f = 'T';
+    * When using '', only one character is allowed inside. Any more will cause an error.

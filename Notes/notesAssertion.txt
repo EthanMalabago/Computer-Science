@@ -1,0 +1,13 @@
+An assertion is a condition that must be true where it is specified.
+For example:
+    assertion(<condition>);
+
+To use assertions, we must include this library:
+    <cassert>
+
+Example:
+    p = (a + b + c) / 2;
+    assert(p - a > 0);
+    assert(p - b > 0);
+    assert(p - c > 0);
+    area = sqrt(p * (p - a) * (p - b) * (p - c));

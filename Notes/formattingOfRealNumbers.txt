@@ -1,0 +1,46 @@
+Formatting of Real Numbers
+ - setw() also applies
+ - We can specify the precision of printout (# of digits after the decimal point)
+ - setprecision(2)
+ - flag fixed specifies that the number should be printed in the fixed-point notation
+
+--------------------------------------------------------------------------------------------------
+
+Example:
+
+cout << fixed << setprecision(2);
+
+This statement establies that from this point onward, the numbers printed will be in fixed-point notation and at 2 digits of precision
+
+--------------------------------------------------------------------------------------------------
+
+Example 2:
+
+cout << fixed << setprecision(3);
+
+x = 12.3761
+y = 0.03154
+
+cout << setw(8) << x << endl;
+cout << setw(8) << y << endl;
+
+Output:
+  12.376
+   0.032
+
+
+
+BE WARY OF INTEGERS VS. REAL Numbers
+
+7/2 does not equal 7.0/2.0
+
+DIFFERENT THAN JAVASCRIPT
+
+
+setprecision is a rule set for the computer, meaning it HAS to reach 5 digits after the decimal point. This means that it will add 0s for padding to meet that requirement
+
+
+Characters are NOT STRINGS, very DIFFERENT
+
+Characters can be used in mixed mode operations, where 'A' is 65, 'B' is 66
+Strings can not be used in mixed mode operations

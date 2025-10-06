@@ -1,0 +1,38 @@
+Float 
+    * '+' does not have to be written before a positive number
+    * '-' has to be written before a negative number
+    * Leading zeros must be avoided (it triggers octal numbers)
+    * Computer accepts real numbers either in the fixed or floating point notations
+    * Variations of float are possible (ex., double, long double)
+
+Examples:
+
+float x_1; // Smaller numbers
+double x_2; // Larger numbers
+long double x_3; // Huge numbers
+
+
+Fixed or Floating Point notations
+    * fixed-point notation is the notation in which a decimal point is used
+        Ex., float x = 3.17;
+    * floating-point notation is the notation in which a very large or small number is used
+        Ex., float x = 1.2376976e2; (this outputs 123.76976)
+
+Floating-point Notation Example:
+
+cout << "Enter a real number: ";
+cin >> x;
+
+We can enter: 7.6e3, and it would be interpreted as 7600.
+
+
+Printing numbers in the floating-point notation
+
+In the case of printing a float point, the computer will always print at least two digits of the exponent. For example:
+
+double a = 1.0e-9;
+
+cout << a << endl;
+
+The output will be:
+1e-09

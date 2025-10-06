@@ -1,0 +1,12 @@
+lab2 - Date 9/29
+
+Write a program that accepts integers from the keyboard until the integer divisble by 2 and 3 is entered, and outputs the number of integers entered.
+
+Notes - 
+
+do
+{
+    print "enter integer: "
+    input integer
+}
+while (!integer % 6 == 0)

@@ -1,0 +1,31 @@
+**Control Statements**
+
+if statement
+
+Syntax:
+if (<condition>)
+    <statement>;
+*the above only works with a one line statement
+
+or
+
+if (<condition>) {
+    <statement>;
+}
+
+--------------------------------------------------------------------
+
+boolean expression
+
+Definition:
+Boolean constants (true, false) and boolean variables are boolean expressions.
+If A and B are boolean expressions, then so are A && B, A || B, and !A.
+If A and B are arithmetic expressions, then A < B, A <= B, A == B, A >= B, A > B, and A != B are boolean expressions.
+Nothing else is a boolean expression.
+
+--------------------------------------------------------------------
+
+Compound statement
+
+Definition:
+A compound statement is a single statement in C++ which consists of more than one C++ statement enclosed by curly brackets {}. A semicolon should not be used to end such statement.

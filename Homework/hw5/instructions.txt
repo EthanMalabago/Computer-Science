@@ -1,0 +1,16 @@
+hw5 - Due Date - 10/13
+
+Write a program that uses function random introduced in the class to compute the value of pi.
+
+Use unit circle, which is a quarter of a circle in quadrant I. 
+
+To check if a point is in the unit circle, check hypotenuse < 1. sqrt(x * x + y * y)
+
+
+
+A_s = 1
+A_c = pi/4
+
+A_s - total
+A_c - counter
+

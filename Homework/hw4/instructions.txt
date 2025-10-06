@@ -1,0 +1,5 @@
+hw4 - Due Date 10/5
+
+Write a program that enters from the keyboard three sides of the triangle, a, b, c, and must output the area of the triangle computed using Heron's formula. 
+
+Notes - "must" means that we have to use a loop to keep the program running until a valid area can be computed and is computed.

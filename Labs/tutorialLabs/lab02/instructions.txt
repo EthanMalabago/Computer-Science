@@ -1,0 +1,11 @@
+// 09/15/25
+
+Write a program that inputs from the keyboard three coefficients (a, b, c) of the quadratic equation:
+
+ax^2 + bx^2 + c = 0
+
+and outputs the values of the roots of the equation.
+
+x_1 = (-b + sqrt(b^2 - 4ac)) / 2a
+
+x_2 = (-b - sqrt(b^2 - 4ac)) / 2a

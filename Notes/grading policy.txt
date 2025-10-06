@@ -1,0 +1,27 @@
+Grading Policy
+
+No Late Work
+No Make Up Quizzes (unless valid reason)
+
+Mid-term Grade
+(Avg first 3 homeworks) + (Quiz #1 x 3) + 10 + (40 x % of Quiz 1)
+
+Homeworks
+
+- Graded from 0 - 20 (up to 20 pts and representing 20% of full grade)
+
+Assignments (lab)
+
+- Graded from 0 - 10 (up to 10 pts and representing 10% of full grade)
+
+Quizzes (3)
+
+- Graded from 3 x (0 - 10) (up to 10 pts each and representing 30% of full grade)
+
+Final exam
+
+- Up to 40 points and representing 40% of full grade
+
+A (90+ pts)
+B (~75 pts)
+C (~65 pts)

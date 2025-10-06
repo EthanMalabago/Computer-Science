@@ -1,0 +1,38 @@
+For a lot of these constants, more libraries are needed such as C math:
+    <cmath>
+
+Which is implemented like this:
+    #include <cmath>
+
+Some built-in constants
+    - INT_MAX
+    - INT_MIN
+    - DBL_MAX
+    - DBL_MIN
+    - M_PI
+
+How to use one for example:
+    cout << INT_MAX << endl;
+
+Square Root Function
+    - sqrt(4) = 2.0
+    The square root function is designed for a double output, even if there is an integer in the input
+
+Power Function
+    - pow(base, exponent)
+
+Absolute Value Function
+    - abs(x)
+    - fabs(x)
+        specifically for real numbers
+
+Natural Log Function
+    - log(x)
+
+Decimal Log Function
+    - log10(x)
+
+
+Heron's Formula (area of triangles)
+    p = (a+b+c)/2
+    s = sqrt(p(p-a)(p-b)(p-c))

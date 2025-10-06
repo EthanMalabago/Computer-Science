@@ -1,0 +1,38 @@
+C++ Language is primary language learned
+
+- Types of objects
+
+  - Integer types
+  - real #s
+  - characters
+  - strings ("text", 'text')
+  - boolean
+
+- Declaration Statements
+
+- Variables
+
+- Assignment Statement
+
+- Operations on Various Types of Objects
+
+  - addition / subtraction
+  - multiplication / division
+
+- Expressions
+
+  - algebraic (+, -, x, /)
+  - boolean (true, false)
+
+- Control Statement
+
+  - if statement
+  - switch statement (case, etc.)
+  - loop statement (for loops, while loops)
+
+- Functions
+
+  - built-in functions
+  - user-defined functions
+
+- Recursion

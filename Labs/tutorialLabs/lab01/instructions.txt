@@ -1,0 +1,3 @@
+Task today:
+
+Write a program that inputs from the keyboard the base and height of a right triangle and outputs the area of the triangle
