@@ -1,1 +1,1 @@
-This is my computer science repo so that way I can sync my assignments from my laptop with my PC without excessive hassle.
+This is my computer science repo so that I can sync my assignments from my laptop to my PC without excessive hassle.
