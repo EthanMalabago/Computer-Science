@@ -23,7 +23,7 @@ int main()
     double sum;
 
     sum = 0.0;
-    for(int i = 1; i <= NUMLOOP; i++)
+    for (int i = 1; i <= NUMLOOP; i++)
         sum += 5 * random(seed);
 
     cout << endl;

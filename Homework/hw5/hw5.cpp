@@ -12,3 +12,54 @@ Description: estimates pi using function random(seed)
 
 using namespace std;
 
+const int NUMLOOP = 1000000;
+unsigned int seed = 21;
+
+double random(unsigned int &seed);
+
+int main()
+{
+    double a, b, countIn, countOut;
+
+    countIn = 0.0;
+    countOut = 0.0;
+    for (int i = 1; i <= NUMLOOP; i++)
+    {
+        a = random(seed);
+        b = random(seed);
+
+        if (sqrt(a * a + b * b) < 1.0)
+            countIn++;
+
+        else
+            countOut++;
+    }
+
+    cout << endl;
+    cout << fixed << setprecision(6);
+    cout << "Estimate of pi: " << setw(8) << 4.0 * (countIn / NUMLOOP) << endl;
+    cout << endl;
+
+    return 0;
+}
+
+double random(unsigned int &seed)
+{
+    const int MODULUS = 15749;
+    const int MULTIPLIER = 69069; 
+    const int INCREMENT = 1;
+
+    seed = ((MULTIPLIER * seed) + INCREMENT) % MODULUS;
+
+    return double(seed) / MODULUS;
+}
+
+/*
+Sample code:
+
+PS C:\Computer-Science\Homework\hw5> ./hw5
+
+Estimate of pi: 3.149096
+
+PS C:\Computer-Science\Homework\hw5>
+*/
