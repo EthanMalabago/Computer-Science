@@ -12,8 +12,8 @@ Description: estimates pi using function random(seed)
 
 using namespace std;
 
-const int NUMLOOP = 100000;
-unsigned int seed = 21;
+const int NUMLOOP = 1000000;
+unsigned int seed = 6;
 
 double random(unsigned int &seed);
 
@@ -45,7 +45,7 @@ int main()
 
 double random(unsigned int &seed)
 {
-    const int MODULUS = 2147483648;
+    const int MODULUS = 2147483647;
     const int MULTIPLIER = 1103515245; 
     const int INCREMENT = 12345;
 
@@ -57,9 +57,9 @@ double random(unsigned int &seed)
 /*
 Sample code:
 
-PS C:\Computer-Science\Homework\hw5> ./hw5
+ethan@Ethans-MacBook-Pro hw5 % ./hw5             
 
-Estimate of pi: 3.149096
+Estimate of pi: 3.147768
 
-PS C:\Computer-Science\Homework\hw5>
+ethan@Ethans-MacBook-Pro hw5 %
 */
