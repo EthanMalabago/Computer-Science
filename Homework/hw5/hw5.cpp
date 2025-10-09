@@ -12,7 +12,7 @@ Description: estimates pi using function random(seed)
 
 using namespace std;
 
-const int NUMLOOP = 1000000;
+const int NUMLOOP = 100000;
 unsigned int seed = 21;
 
 double random(unsigned int &seed);
@@ -45,9 +45,9 @@ int main()
 
 double random(unsigned int &seed)
 {
-    const int MODULUS = 15749;
-    const int MULTIPLIER = 69069; 
-    const int INCREMENT = 1;
+    const int MODULUS = 2147483648;
+    const int MULTIPLIER = 1103515245; 
+    const int INCREMENT = 12345;
 
     seed = ((MULTIPLIER * seed) + INCREMENT) % MODULUS;
 
