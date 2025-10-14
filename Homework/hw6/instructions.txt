@@ -1,0 +1,3 @@
+hw6 - Due Date - 10/16/25
+
+Write a program that accepts from the keyboard the initial height, h, of the bouncing ball and its bounciness ratio, r, and outputs the total distance traveled by the ball until it stops bouncing

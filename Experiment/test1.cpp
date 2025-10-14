@@ -1,28 +1,30 @@
+// Program to accept values a and b of the ellipse x^2/a^2 + y^2/b^2 = 1 and outputs the maximum area of a rectangle inscribed in the ellipse
+
 #include <iostream>
 #include <iomanip>
 #include <cmath>
 
 using namespace std;
 
-unsigned int seed = 6;
-
-double random(unsigned int &seed);
-
 int main()
 {
-    for (int i = 1; i <= 10; i++)
-        cout << int(6 * random(seed)) << ", ";
-    
+    double a, b;
+
     cout << endl;
+    cout << "Enter a: ";
+    cin >> a;
+
+    cout << endl;
+    cout << "Enter b: ";
+    cin >> b;
+
+    
 
     return 0;
 }
 
-double random(unsigned int &seed)
-{
-    const int MODULUS = 15749;
-    const int MULTIPLIER = 69069;
-    const int INCREMENT = 1;
-    seed = ((MULTIPLIER * seed) + INCREMENT) % MODULUS;
-    return double(seed) / MODULUS;
-}
+/*
+Sample output:
+
+
+*/

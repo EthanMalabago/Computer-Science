@@ -1,18 +1,10 @@
-/*
-       Name: Ethan Malabago
- Assignment: hw5
-   Due Date: 10/13/2025
-Description: estimates pi using function random(seed) 
-       File: hw5.cpp
-*/
-
 #include <iostream>
 #include <iomanip>
 
 using namespace std;
 
-const int NUMLOOP = 1000000;
-unsigned int seed = 6;
+const int NUMLOOP = 1000000; // large runtime for higher accuracy
+unsigned int seed = 7;
 
 double random(unsigned int &seed);
 
@@ -44,7 +36,7 @@ int main()
 
 double random(unsigned int &seed)
 {
-    const int MODULUS = 2147483647;
+    const int MODULUS = 2147483647; // increased for higher accuracy and larger variety of numbers
     const int MULTIPLIER = 1103515245; 
     const int INCREMENT = 12345;
 
@@ -52,13 +44,3 @@ double random(unsigned int &seed)
 
     return double(seed) / MODULUS;
 }
-
-/*
-Sample code:
-
-ethan@Ethans-MacBook-Pro hw5 % ./hw5             
-
-Estimate of pi: 3.147768
-
-ethan@Ethans-MacBook-Pro hw5 %
-*/
