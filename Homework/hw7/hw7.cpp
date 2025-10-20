@@ -26,10 +26,10 @@ double random(unsigned int &seed);
 int main()
 {
     double x, y, z, t, f_1, f_2, f_3;
+    double old_t = 100000;
 
     cout << fixed << setprecision(10) << endl;
 
-    double old_t = 100000;
     int c = 0;
     for (int i = 1; i < ITERATIONS; i++)
     {
@@ -41,7 +41,9 @@ int main()
         y = 15 * (f_2 / (f_1 + f_2 + f_3));
         z = 15 * (f_3 / (f_1 + f_2 + f_3));
 
-        t = sqrt(WATERDISTANCE * WATERDISTANCE + x * x) / 3 + ( y / 5 ) + ( sqrt(LANDDISTANCE * LANDDISTANCE + z * z) / 4 );
+        t = ( sqrt(WATERDISTANCE * WATERDISTANCE + x * x) / 3
+        + ( y / 5 )
+        + ( sqrt(LANDDISTANCE * LANDDISTANCE + z * z) / 4 ) );
 
         if (t < old_t)
         {
