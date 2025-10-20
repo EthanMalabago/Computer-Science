@@ -1,0 +1,11 @@
+hw7 - Due Date - 10-27
+
+Race against Time
+
+CONSTs:
+
+- boat speed
+- shore speed
+- running speed
+
+find shortest time

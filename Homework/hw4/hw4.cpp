@@ -2,7 +2,7 @@
        Name: Ethan Malabago
  Assignment: hw4
    Due Date: 10/06/2025
-Description: outputs sum 1 + 1/2 + 1/3 + ... + 1/u; 1 <= u <= 5 from keyboard
+Description: heron's formula triangle calculator
        File: hw4.cpp
 */
 
