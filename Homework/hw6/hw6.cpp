@@ -29,14 +29,25 @@ int main()
         cin >> r;
     }   while (r < 0 || r > 1);
     
+    totalDistance = 0.0;
+    bounceHeight = 0.0;
+
     do
     {
-        bounceHeight = h * r;
-        
-
         totalDistance += h;
+
+        bounceHeight = h * r;
+
+        if (bounceHeight > 0.0)
+            totalDistance += bounceHeight;
+
+        h = bounceHeight;
     }   while (h > 0.0);
-    
+
+    cout << endl;
+    cout << fixed << setprecision(3);
+    cout << "Total distance traveled: " << totalDistance << endl;
+    cout << endl;
 
     return 0;
 }
@@ -44,5 +55,13 @@ int main()
 /*
 Sample code:
 
+ethan@Ethans-MacBook-Pro hw6 % ./hw6 
 
+Enter initial height: 4
+
+Enter bounciness ratio: 0.3
+
+Total distance traveled: 7.429
+
+ethan@Ethans-MacBook-Pro hw6 % 
 */
