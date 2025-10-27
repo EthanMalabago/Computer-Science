@@ -19,8 +19,13 @@ int main()
     for (int i = 0; i <= SIZE; i++)
     {
         a[i] = int (LOW + (HIGH - LOW + 1) * random(seed));
-        cout << a[i] << endl;
     }
+
+    int i = 0;
+    while (a[i] != LOW)
+        i++;
+
+    cout << i << endl;
 
     return 0;
 }

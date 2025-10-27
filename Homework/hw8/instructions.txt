@@ -1,0 +1,7 @@
+------------------------------------------------------------------------
+hw8 - 3 November 2025
+------------------------------------------------------------------------
+
+Write a program that generates 100 random points in the unit square and outputs the x and y coordinates of two points with the maximum distance between them.
+
+The unit square has a side length of 1. 

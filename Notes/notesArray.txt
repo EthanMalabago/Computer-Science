@@ -1,30 +1,37 @@
-Arrays
+------------------------------------------------------------------------
+ARRAYS - first introduced Thursday, 23 October 2025
+------------------------------------------------------------------------
 
+VOCABULARY:
 index - id of the element in an array (starts at 0, 1, 2, 3...)
 
 ------------------------------------------------------------------------
 
-Proper syntax for arrays:
+DECLARATIONS OF ARRAYS:
+1. <element type> <array name>[<size>];
 
-<type> <name>[<size>];
+    EX:
+    int a[10];
 
-const int SIZE = 5;
+// Defines an array, called 'a', which has ten slots, each holding an integer.
 
-int main()
-{
-    int a[SIZE];
+2. typedef <element type> <type name>[<sine>];
 
-    cout << a[1] << endl;
+    EX:
+    typedef double ar_double[10];
+    ar_double a;
 
-    return 0;
-}
-
-output: 2
+// Defines a type of array, called 'ar_double', assigning it to be an array storing ten double values.
+// When called in the next line, it creates 'a' with the type 'ar_double', which is a ten-slot double array.
 
 ------------------------------------------------------------------------
 
-Example:
+USING ARRAYS:
+const int SIZE = 5;
 
-typedef int array_type[5];
+int a[SIZE];
 
-array_type a;
+// ALWAYS assign the size of an array during declaration with a const variable. Avoid using a number.
+
+------------------------------------------------------------------------
+

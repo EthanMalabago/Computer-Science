@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+Lab 5 - 27 October 2025
+------------------------------------------------------------------------
+
+Write a program that declares an integer array, 'a', of size 50, and populates the array with random integers each in range [3, 7], and outputs all positions at which the array element value is 4.
+
+------------------------------------------------------------------------
+
+EX:
+
+ 0  1  2  3  4  5  6  7
+[3, 6, 5, 4, 7, 4, 3, 2]
+
+OUTPUT:
+3 5 7
+
+------------------------------------------------------------------------
+
+Your program should also print all values of the array elements as the [10 x 5] matrix.
