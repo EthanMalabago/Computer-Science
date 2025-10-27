@@ -1,3 +1,30 @@
 Arrays
 
 index - id of the element in an array (starts at 0, 1, 2, 3...)
+
+------------------------------------------------------------------------
+
+Proper syntax for arrays:
+
+<type> <name>[<size>];
+
+const int SIZE = 5;
+
+int main()
+{
+    int a[SIZE];
+
+    cout << a[1] << endl;
+
+    return 0;
+}
+
+output: 2
+
+------------------------------------------------------------------------
+
+Example:
+
+typedef int array_type[5];
+
+array_type a;
