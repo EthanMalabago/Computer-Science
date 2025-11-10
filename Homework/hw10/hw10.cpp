@@ -55,7 +55,7 @@ void fill_array(char a[][COL_SIZE])
             a[row][col] = random_char('A', 'Z');
 }
 
-void print_array(char a[][COL_SIZE])
+void print_array(const char a[][COL_SIZE])
 {
     for (int row = 0; row < ROW_SIZE; row++)
     {
