@@ -1,0 +1,5 @@
+------------------------------------------------------------------------
+hw11 - 17 November 2025
+------------------------------------------------------------------------
+
+Write a program that uses structure "Point" discussed in the lecture on Monday, 10 November 2025, to declare an array of 100 random points (use function fill_array) and outputs the # of points with distances between them that are greater than 1. Use function greater_distance that returns that value. 

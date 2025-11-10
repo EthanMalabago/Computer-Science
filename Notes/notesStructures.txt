@@ -1,2 +1,20 @@
-Structures
+------------------------------------------------------------------------
+STRUCTURES - first introduced on Monday, 10 November 2025
+------------------------------------------------------------------------
 
+SYNTAX:
+
+struct Point
+{
+    double x, y;
+};
+
+This is a structure. The key word to create a structure is called "struct". 
+Note how the name of the structure is called "Point" with a capital starting letter.
+That is the standard for naming classes in C++, alongside lowercase variables and
+all-caps constants. 
+
+This structure defines something called Point, which has two fields: x and y, both of which
+take in double values. 
+
+------------------------------------------------------------------------
