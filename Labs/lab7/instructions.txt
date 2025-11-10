@@ -1,0 +1,17 @@
+------------------------------------------------------------------------
+lab7 - 10 November 2025
+------------------------------------------------------------------------
+
+Write a program that uses structure "Record" which has three fields:
+
+ch - character type
+ n - integer type
+ x - double type
+
+to declare an array, a, of size 10 of type Record, and uses function fill_array to populate all fields with:
+
+ch - random small letters
+ n - random integers in range [5, 10]
+ x - random numbers in range [5, 10)
+
+Use function print_array to print the contents of all fields of all Records in the array. 
