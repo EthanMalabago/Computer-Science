@@ -1,3 +1,12 @@
+/*
+       Name: Ethan Malabago
+ Assignment: hw10
+   Due Date: 11/10/2025
+Description: creates char array of size 50 and prints all elements
+             in a 5 x 10 matrix (5 rows 10 columns)
+       File: hw10.cpp
+*/
+
 #include <iostream>
 #include <iomanip>
 
@@ -55,3 +64,15 @@ void print_array(char a[][COL_SIZE])
         cout << endl;
     }
 }
+
+/*
+Sample Output:
+
+ethan@Ethans-MacBook-Pro hw10 % ./hw10
+   P   V   J   F   J   V   Z   S   U   P
+   F   S   L   Z   R   B   F   J   G   I
+   Z   C   V   E   M   S   I   B   U   G
+   T   E   M   K   H   T   V   K   Z   P
+   Q   U   L   S   M   K   L   P   R   K
+ethan@Ethans-MacBook-Pro hw10 % 
+*/
