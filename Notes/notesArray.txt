@@ -7,7 +7,7 @@ index - id of the element in an array (starts at 0, 1, 2, 3...)
 
 ------------------------------------------------------------------------
 
-DECLARATIONS OF ARRAYS:
+DECLARATION:
 1. <element type> <array name>[<size>];
 
     EX:
@@ -26,7 +26,7 @@ DECLARATIONS OF ARRAYS:
 
 ------------------------------------------------------------------------
 
-USING ARRAYS:
+USE CASE:
 const int SIZE = 5;
 
 int a[SIZE];

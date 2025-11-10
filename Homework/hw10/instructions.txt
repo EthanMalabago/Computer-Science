@@ -1,0 +1,15 @@
+hw10 - Due 10 November 2025
+
+Write a program that declares a two-dimensional character array, a, of dimensions [5 x 10] (5 rows, 10 columns), populates the array with random capital letters, and outputs the array in the matrix format.
+
+Functions should be used to populate the array and print. 
+
+This means that we are going to use these functions:
+random(seed)
+fill_array()
+print_array()
+
+Output should look something like this if it were in format [3 x 5]:
+A K P I B
+A A B L O
+C B C Z K

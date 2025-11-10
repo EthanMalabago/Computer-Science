@@ -1,0 +1,38 @@
+------------------------------------------------------------------------
+MULTIDIMENSIONAL ARRAYS - first introduced Monday, 3 November 2025
+------------------------------------------------------------------------
+
+DECLARATION:
+int a[10]; // one-dimensional
+int a[5][7]; // two-dimensional
+int a[4][3][5];
+
+// for visual reference, here is what int a[5][7]; looks like
+
+    a_00, a_01, ..., a_06
+    a_10, a_11, ..., a_16
+a = ...
+    ...
+    a_40, a_41, ..., a_46
+
+// how to fill a two-dimensional array (as a function)
+void fill_array(int a[][COL_SIZE])
+{
+    for (int row = 0; row < ROW_SIZE; row++)
+        for (int col = 0; col < COL_SIZE; col++)
+            a[row][col] = int (10 * random(seed));
+}
+
+// how to print a two-dimensional array (also as a function)
+void print_array(const int a[][COL_SIZE])
+{
+    for (int row = 0; row < ROW_SIZE; row++)
+    {
+        for (int col = 0; col < COL_SIZE; col++)
+            cout << setw(4) << a[row][col];
+        cout << endl;
+    }
+}
+
+------------------------------------------------------------------------
+

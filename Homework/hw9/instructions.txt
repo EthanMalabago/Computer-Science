@@ -1,0 +1,3 @@
+hw9 - Due Date - 10 Nov 2025
+
+Write a program that uses functions discussed in the class (or something similar) to populate an integer array of size 20 with random integers in range [1, 5], and outputs the array and the average of all values in the array elements.

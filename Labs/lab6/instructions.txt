@@ -1,0 +1,5 @@
+Due 3 Nov 2025
+
+Write a program that uses function fill_array to populate an integer array of size 10 with distinct random integers each in range [10, 30].
+
+function fill_array

@@ -1,6 +1,14 @@
 Due 6 Nov 2025
 
 REQUIRED KNOWLEDGE:
-functions, loops, control statements
-
-
+functions
+    - design a function header
+        - return type (void, int, double, etc.)
+        - arguments 
+            - passing arguments
+                - passing-by-value
+                - passing-by-reference
+    - random(seed)
+        - alternate versions (char, changed max / min, etc.)
+loops
+control statements
