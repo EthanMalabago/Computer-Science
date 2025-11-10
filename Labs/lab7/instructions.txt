@@ -15,3 +15,10 @@ ch - random small letters
  x - random numbers in range [5, 10)
 
 Use function print_array to print the contents of all fields of all Records in the array. 
+
+EXAMPLE OUTPUT (estimated syntax, not full output):
+
+i   ch  n   x
+0   a   6   5.42
+1   z   8   6.97
+2   b   7   9.98
