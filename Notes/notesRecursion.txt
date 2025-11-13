@@ -1,0 +1,28 @@
+------------------------------------------------------------------------
+RECURSION - first introduced on THURSDAY, 13 November 2025
+------------------------------------------------------------------------
+
+EXAMPLE:
+
+// recursive definition
+n! = { 1 if n = 0 || n * (n - 1)! if n > 0 }
+
+// non-recursive function implementation
+int factorial(int n)
+{
+    int product = 1;
+    for (int i = 2; i <= n; i++)
+        product *= i;
+
+    return product
+}
+
+// recursive function implementation
+int factorial(int n)
+{
+    if (n == 0)
+        return 1;
+
+    else
+        return n * factorial(n - 1);
+}

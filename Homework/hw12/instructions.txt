@@ -1,0 +1,11 @@
+------------------------------------------------------------------------
+hw12 - 20 November 2025
+------------------------------------------------------------------------
+
+Write a program that initializes an array of size 100 of points and
+outputs the coordinates of three points that form a triangle with the
+minimum area.
+
+Use functions: random, fill_array, and computation of the triangle area
+given three points using Heron's formula
+
