@@ -1,0 +1,36 @@
+NEW order of statements before int main()
+
+1. preprocessor directives
+2. using namespace std;
+3. constants (section)
+4. global variables
+5. function declarations
+6. structures (use forward declaration)
+7. int main()
+
+EXAMPLE:
+
+#include <iostream>
+#include <iomanip>
+#include <ctime>
+
+using namespace std;
+
+const int SIZE = 10;
+
+unsigned int seed = (unsigned int) clock();
+
+struct Point; // forward declaration before functions, no space
+double random(unsigned int &seed);
+void fill_array(Point a[]);
+
+struct Point // actual definition
+{
+    double x, y;
+};
+
+int main()
+{
+    ...
+    return 0;
+}
