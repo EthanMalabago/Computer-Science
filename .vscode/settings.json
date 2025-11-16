@@ -3,8 +3,9 @@
     "iostream": "cpp",
     "iomanip": "cpp",
     "complex": "cpp",
-    "cmath": "cpp"
-  },
+    "cmath": "cpp",
+    "ctime": "cpp"
+},
   "C_Cpp.default.compilerPath": "/usr/bin/g++",
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
