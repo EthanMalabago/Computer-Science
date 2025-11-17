@@ -2,3 +2,24 @@
 lab8 - 17 November 2025
 ------------------------------------------------------------------------
 
+Write a program that uses a recursive function "n choose k" for the computation
+of the binomial for which the values of n and k are entered from the keyboard.
+
+
+EXTRA INFO:
+
+( n ) = (n - 1) + (n - 1)
+( k )   (  k  )   (k - 1)
+
+( n ) = { 1                  when k = 0 or k = n }
+( k )   { (n - 1) + (n - 1)            otherwise }
+( k )   { (  k  )   (k - 1)                      }
+
+"n choose k"
+
+# of combinations of k elements chosen out of n available elements
+
+n! / k!(n - k)!
+
+// this is the formula for distinct, non-repeating elements
+
