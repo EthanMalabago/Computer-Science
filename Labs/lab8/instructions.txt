@@ -5,7 +5,6 @@ lab8 - 17 November 2025
 Write a program that uses a recursive function "n choose k" for the computation
 of the binomial for which the values of n and k are entered from the keyboard.
 
-
 EXTRA INFO:
 
 ( n ) = (n - 1) + (n - 1)
