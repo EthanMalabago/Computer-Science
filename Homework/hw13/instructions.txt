@@ -1,0 +1,16 @@
+------------------------------------------------------------------------
+hw13 - 24 November 2025
+------------------------------------------------------------------------
+
+Write a program that uses function fib(n) that computes the n-th fibonnaci 
+#. Use that function to obtain a table of fibonacci #s obtained by using
+a recursive equation as well as the function fib(n)
+
+EXTRA INFORMATION:
+
+Fibonacci equation:
+
+    f(0) = 0
+    f(1) = 1
+    f(n) = f(n - 1) + f(n - 2), n > 1
+
