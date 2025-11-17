@@ -4,13 +4,16 @@ using namespace std;
 
 int gcd(int a, int b);
 double exponent(double x, int n);
+int choose_k(int n, int k);
 
 int main()
 {
-    int a = 36;
-    int b = 54;
+    int a, b;
 
-    cout << gcd(a, b) << endl;
+    cout << endl;
+    
+
+    cout << choose_k(a, b) << endl;
 
     return 0;
 }
@@ -29,4 +32,12 @@ double exponent(double x, int n)
         return 1;
     else
         return x * exponent(x, n - 1);
+}
+
+int choose_k(int n, int k)
+{
+    if (k == 0)
+        return 1;
+    else
+        return choose_k(n, ( (n - 1) / k ) + ( (n - 1) / (k - 1) ));
 }
