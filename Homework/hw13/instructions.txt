@@ -4,7 +4,19 @@ hw13 - 24 November 2025
 
 Write a program that uses function fib(n) that computes the n-th fibonnaci 
 #. Use that function to obtain a table of fibonacci #s obtained by using
-a recursive equation as well as the function fib(n)
+a recursive equation as well as the function fib(n).
+
+OUTPUT SAMPLE:
+
+n       f(n)    recursive function for f(n)
+
+0       0       0
+1       1       1
+2       1       1
+3       2       2
+4       3       3
+5       5       5
+
 
 EXTRA INFORMATION:
 
