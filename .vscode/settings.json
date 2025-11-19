@@ -4,7 +4,8 @@
     "iomanip": "cpp",
     "complex": "cpp",
     "cmath": "cpp",
-    "ctime": "cpp"
+    "ctime": "cpp",
+    "ios": "cpp"
 },
   "C_Cpp.default.compilerPath": "/usr/bin/g++",
   "C_Cpp_Runner.cCompilerPath": "gcc",
