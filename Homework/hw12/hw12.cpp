@@ -2,7 +2,8 @@
        Name: Ethan Malabago
  Assignment: hw12
    Due Date: 11/20/2025
-Description: 
+Description: initialize 100 points; find and output
+             triangle with minimum area.
        File: hw12.cpp
 */
 
@@ -94,5 +95,9 @@ double distance_calc(Point p_1, Point p_2)
 /*
 Sample Output:
 
+ethan@Ethans-MacBook-Pro hw12 % ./hw12
 
+smallest area: 0.000002219561
+
+ethan@Ethans-MacBook-Pro hw12 % 
 */
