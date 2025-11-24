@@ -2,7 +2,7 @@
        Name: Ethan Malabago
  Assignment: hw13
    Due Date: 11/24/2025
-Description: 
+Description: fibonacci numbers using recursive and regular function
        File: hw13.cpp
 */
 
@@ -50,3 +50,24 @@ int fib(int n)
     double s5 = sqrt(5);
     return round( (pow((1 + s5) / 2.0, n) - pow((1 - s5) / 2.0, n) ) / s5 );
 }
+
+/*
+Sample Output:
+
+ethan@Ethans-MacBook-Pro hw13 % ./hw13
+
+n    fib(n)  recursive_fib(n)
+
+0       0            0
+1       1            1
+2       1            1
+3       2            2
+4       3            3
+5       5            5
+6       8            8
+7      13           13
+8      21           21
+9      34           34
+
+ethan@Ethans-MacBook-Pro hw13 % 
+*/
