@@ -1,3 +1,13 @@
+/*
+       Name: Ethan Malabago
+ Assignment: lab9
+   Due Date: 11/24/2025
+Description: tests vector initialization, default
+             struct values, and assertion behavior
+             using int, double, and Node vectors.
+       File: lab9.cpp
+*/
+
 #include <vector>
 #include <cassert>
 
@@ -10,7 +20,7 @@ struct Node
         int_value = 0;
         double_value = 0.0;
     }
-    
+
     int int_value;
     double double_value;
 };
@@ -33,9 +43,9 @@ int main()
 }
 
 /*
-Sample Output:
+Sample Output of intentional error (as stated in lab):
 
-ethan@Ethans-MacBook-Pro lab9 % ./lab9              
+ethan@Ethans-MacBook-Pro lab9 % ./lab9
 Assertion failed: (node_vec[9].int_value == 3), function main, file lab9.cpp, line 29.
 zsh: abort      ./lab9
 ethan@Ethans-MacBook-Pro lab9 %
