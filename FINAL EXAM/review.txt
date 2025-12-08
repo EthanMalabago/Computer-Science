@@ -1,0 +1,44 @@
+Final Exam - details + review
+
+DETAILS:
+
+Thursday, 18 December 2025 from 9:30 - 11:30am
+Lowenstein Room 612
+
+CISC 1610 Grading:
+Average of Lab Assignments * 5 + Final Exam * 1.25
+        (up to 10)               (up to 40)
+
+CISC 1600 Grading:
+Average of Lab Assignments + Average of Homeworks + Sum of all quiz grades + Final Exam
+        (up to 10)                (up to 20)              (up to 30)         (up to 40)
+
+
+REVIEW:
+
+Assignment
+    syntax
+    expressions
+        arithmetic
+        boolean
+        built-in functions
+    
+Control Statements
+    if statements
+        nested ifs
+    switch
+    loops
+    
+Functions
+    passing arguments
+        by value
+        by reference
+        by const reference
+
+Recursion
+    lightly covered, still review it just in case
+
+Arrays
+    functions
+    passing arguments
+
