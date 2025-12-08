@@ -1,0 +1,37 @@
+------------------------------------------------------------------------
+lab10 - 1 December 2025
+------------------------------------------------------------------------
+
+Write a program that initializes a double vector of size 6 with
+random #s in range [1.0, 5.0) and prints the content of the vector
+forwards and backwards.
+
+For example:
+
+1.03  2.07  1.96  3.12  4.10
+4.10  3.12  1.96  2.07  1.03
+
+Use functions to fill the vector and to print its values.
+
+Function names could be:
+
+void fill_vector(double a[])
+void print_vector(const double a[])
+
+Required function for random numbers:
+
+double random(unsigned int &seed)
+{
+    const int MODULUS = 2147483647;
+    const int MULTIPLIER = 1103515245;
+    const int INCREMENT = 12345;
+
+    seed = ((MULTIPLIER * seed) + INCREMENT) % MODULUS;
+
+    return double(seed) / MODULUS;
+}
+
+Use something like this return statement to modify the output of random to get
+a range of [1.0, 5.0):
+
+return int (low + (high - low + 1) * random(seed));
