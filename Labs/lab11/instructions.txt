@@ -1,0 +1,31 @@
+lab 11 - Due 8 December 2025
+
+Write a program that creates a vector of 10 structures called "Pair" having two fields:
+
+ch - for a character
+ n - for an integer
+
+initializes the vector with random small characters in the ch field, and random integers
+in range [5, 10] in the n field.
+
+Prints the original vector, and sorts the vector with respect to the ch field in the descending
+order and prints the storted vector
+
+Sorts the vector in the descending order with respect to the n field, and prints the storted vector
+
+
+Ex.
+
+sorting wrt ch field
+ch        n
+c        12
+z         9
+a         4
+p        16
+
+sorting wrt n field
+ch        n
+p        16
+c        12
+z         9
+a         4
