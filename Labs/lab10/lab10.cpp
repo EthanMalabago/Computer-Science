@@ -21,7 +21,7 @@ const double MAX = 5.0;
 
 unsigned int seed = (unsigned int) clock();
 
-double random(unsigned int &seed);
+double random(unsigned int& seed);
 void fill_vector(vector <double> &vec);
 void print_vector(const vector <double> &vec);
 void reverse_vector(vector <double> &vec);
