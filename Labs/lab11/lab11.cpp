@@ -19,6 +19,7 @@ const int MIN = 5;
 const int MAX = 10;
 const char START = 'a';
 const char FINISH = 'z';
+
 unsigned int seed = (unsigned int) clock();
 
 double random(unsigned int &seed);
