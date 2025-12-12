@@ -1,8 +1,8 @@
 /*
        Name: Ethan Malabago
  Assignment: hw14
-   Due Date: 12/14/2025
-Description: Collatz sequence using recursive function with no counter variable
+   Due Date: 12/11/2025
+Description: collatz sequence using recursive function
        File: hw14.cpp
 */
 
